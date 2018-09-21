@@ -5,9 +5,6 @@
         <a class="navbar-item" href="#">
           <img src="./assets/o4u_branding_48.png" alt="Optimized4u branding" height="48">
         </a>
-        <div class="navbar-item">
-          <h1 class="display-1">Optimized4U</h1>
-        </div>
 
         <a role="button" class="navbar-burger"  @click="showNav = !showNav" :class="{ 'is-active': showNav }" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
@@ -18,16 +15,16 @@
       <div class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-end">
           <!-- navbar items -->
-          <router-link tag="a" to="/" class="navbar-item is-active">
+          <router-link to="/" class="navbar-item">
             Home
           </router-link>
-          <router-link tag="a" to="/support" class="navbar-item is-active">
+          <router-link to="/support" class="navbar-item">
             Support
           </router-link>
-          <router-link tag="a" to="/design" class="navbar-item is-active">
+          <router-link to="/design" class="navbar-item">
             Design
           </router-link>
-          <router-link tag="a" to="/about" class="navbar-item is-active">
+          <router-link to="/about" class="navbar-item">
             About
           </router-link>
         </div>
