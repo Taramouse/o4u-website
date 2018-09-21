@@ -9,13 +9,13 @@
           <h1 class="display-1">Optimized4U</h1>
         </div>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <a role="button" class="navbar-burger"  @click="showNav = !showNav" :class="{ 'is-active': showNav }" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-end">
           <!-- navbar items -->
           <router-link tag="a" to="/" class="navbar-item is-active">
@@ -36,6 +36,16 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  data: function () {
+    return {
+      showNav: false
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
