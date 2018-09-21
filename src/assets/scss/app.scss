@@ -12,13 +12,21 @@ $twitter-invert: findColorInvert($twitter);
 $github: #333;
 $github-invert: findColorInvert($github);
 
+// My colors
+$o4u-blue: #0000cc;
+$o4u_blue-invert: findColorInvert($o4u-blue);
+$o4u-red: #cc0000;
+$o4u_red-invert: findColorInvert($o4u-red);
+
 @import "~bulma/sass/utilities/derived-variables";
 
 // 3. Add new color variables to the color map.
 $addColors: (
   "twitter":($twitter, $twitter-invert),
   "linkedin": ($linkedin, $linkedin-invert),
-  "github": ($github, $github-invert)
+  "github": ($github, $github-invert),
+  "o4u-blue": ($o4u-blue, $o4u-blue-invert),
+  "o4u-red": ($o4u-red, $o4u-red-invert)
 );
 $colors: map-merge($colors, $addColors);
 
