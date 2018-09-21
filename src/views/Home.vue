@@ -1,6 +1,17 @@
 <template>
   <div class="home">
-    <h1>Home Page</h1>
+    <section class="hero is-medium is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Optimized4U
+          </h1>
+          <h2 class="subtitle">
+            Experts in support and design.
+          </h2>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
