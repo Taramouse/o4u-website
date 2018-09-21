@@ -1,9 +1,38 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="./assets/o4u_branding_48.png" alt="Optimized4u branding" height="48">
+        </a>
+        <div class="navbar-item">
+          <h1 class="display-1">Optimized4U</h1>
+        </div>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <!-- navbar items -->
+          <router-link tag="a" to="/" class="navbar-item is-active">
+            Home
+          </router-link>
+          <router-link tag="a" to="/support" class="navbar-item is-active">
+            Support
+          </router-link>
+          <router-link tag="a" to="/design" class="navbar-item is-active">
+            Design
+          </router-link>
+          <router-link tag="a" to="/about" class="navbar-item is-active">
+            About
+          </router-link>
+        </div>
+      </div>
+    </nav>
     <router-view/>
   </div>
 </template>
@@ -22,7 +51,7 @@
     font-weight: bold;
     color: #2c3e50;
     &.router-link-exact-active {
-      color: #42b983;
+      color: #4272b9;
     }
   }
 }
