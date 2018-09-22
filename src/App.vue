@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar" id="nav" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
-          <img src="./assets/o4u_branding_48.png" alt="Optimized4u branding" height="48">
+          <img src="./assets/optimized4u.png" alt="Optimized4u branding" height="28">
         </a>
 
         <a role="button" class="navbar-burger"  @click="showNav = !showNav" :class="{ 'is-active': showNav }" aria-label="menu" aria-expanded="false">
