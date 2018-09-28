@@ -1,13 +1,13 @@
 <template>
-  <div class="about">
+  <div class="contact">
     <section class="hero is-medium is-info">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            About Optimized4U
+            Contact Optimized4U
           </h1>
           <h2 class="subtitle">
-            Our contect page.
+            Our contact page.
           </h2>
         </div>
       </div>

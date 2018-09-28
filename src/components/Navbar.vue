@@ -23,8 +23,8 @@
           <router-link to="/design" class="navbar-item">
             Design
           </router-link>
-          <router-link to="/about" class="navbar-item">
-            About
+          <router-link to="/contact" class="navbar-item">
+            Contact
           </router-link>
         </div>
       </div>
