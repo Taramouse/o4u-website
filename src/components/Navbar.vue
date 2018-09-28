@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" id="nav" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top" id="nav" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
           <img src="../assets/optimized4u.png" alt="Optimized4u branding" height="28">
