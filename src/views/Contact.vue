@@ -1,16 +1,25 @@
 <template>
-  <div class="contact">
-    <section class="hero is-medium is-info">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Contact Optimized4U
-          </h1>
-          <h2 class="subtitle">
-            Our contact page.
-          </h2>
-        </div>
-      </div>
-    </section>
-  </div>
+  <hero-title
+    colorClass="is-info"
+    sizeClass="is-medium"
+    heroMainTitle="Contact Optimized4U"
+    heroSubtitle="Enquire about IT Support or Web Design">
+  </hero-title>
 </template>
+
+<script>
+// @ is an alias to /src
+import HeroTitle from '@/components/HeroTitle.vue'
+
+export default {
+  name: 'home',
+  components: {
+    heroTitle: HeroTitle
+  },
+  data: function () {
+    return {
+      //
+    }
+  }
+}
+</script>

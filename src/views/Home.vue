@@ -3,7 +3,7 @@
     colorClass="is-info"
     sizeClass="is-medium"
     heroMainTitle="Optimized4U"
-    heroSubtitle="IT Support and Web Development">
+    heroSubtitle="IT Support, Web and Web App Development">
   </hero-title>
 </template>
 
