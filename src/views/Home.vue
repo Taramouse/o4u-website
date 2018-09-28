@@ -1,9 +1,9 @@
 <template>
   <hero-title
-    :colorClass="colorClass"
-    :sizeClass="sizeClass"
-    :heroMainTitle="heroMainTitle"
-    :heroSubtitle="heroSubtitle">
+    colorClass="is-info"
+    sizeClass="is-medium"
+    heroMainTitle="Optimized4U"
+    heroSubtitle="IT Support and Web Development">
   </hero-title>
 </template>
 
@@ -18,10 +18,7 @@ export default {
   },
   data: function () {
     return {
-      colorClass: 'is-info',
-      sizeClass: 'is-medium',
-      heroMainTitle: 'Optimized4U',
-      heroSubtitle: 'IT Support and Web Development'
+      //
     }
   }
 }
