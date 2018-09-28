@@ -1,10 +1,12 @@
 <template>
-  <hero-title
-    colorClass="is-success"
-    sizeClass="is-medium"
-    heroMainTitle="Optimized4U Support"
-    heroSubtitle="IT Support Services">
-  </hero-title>
+  <div id="support">
+    <hero-title
+      colorClass="is-success"
+      sizeClass="is-medium"
+      heroMainTitle="Optimized4U Support"
+      heroSubtitle="IT Support Services">
+    </hero-title>
+  </div>
 </template>
 
 <script>

@@ -1,10 +1,12 @@
 <template>
-  <hero-title
-    colorClass="is-primary"
-    sizeClass="is-medium"
-    heroMainTitle="Optimized4U Design"
-    heroSubtitle="Web and Web App Design and Development">
-  </hero-title>
+  <div id="design">
+    <hero-title
+      colorClass="is-primary"
+      sizeClass="is-medium"
+      heroMainTitle="Optimized4U Design"
+      heroSubtitle="Web and Web App Design and Development">
+    </hero-title>
+  </div>
 </template>
 
 <script>

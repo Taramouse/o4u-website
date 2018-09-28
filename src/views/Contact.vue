@@ -1,10 +1,12 @@
 <template>
-  <hero-title
-    colorClass="is-info"
-    sizeClass="is-medium"
-    heroMainTitle="Contact Optimized4U"
-    heroSubtitle="Enquire about IT Support or Web Design">
-  </hero-title>
+  <div id="contact">
+    <hero-title
+      colorClass="is-info"
+      sizeClass="is-medium"
+      heroMainTitle="Contact Optimized4U"
+      heroSubtitle="Enquire about IT Support or Web Design">
+    </hero-title>
+  </div>
 </template>
 
 <script>
