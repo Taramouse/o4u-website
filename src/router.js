@@ -36,6 +36,10 @@ export default new Router({
       // this generates a separate chunk (contact.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
+    },
+    {
+      path: '*',
+      component: () => import(/* webpackChunkName: "pagenotfound" */ './views/PageNotFound.vue')
     }
   ]
 })
